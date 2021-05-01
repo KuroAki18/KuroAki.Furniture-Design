@@ -1,0 +1,304 @@
+/* ---------------html-------------------------- */
+html{
+  margin: 10px 30px;
+}
+
+/* ---------------html-------------------------- */
+
+
+/* ----------------header---------------------- */
+h1{
+  color: black;
+}
+
+.header{
+  width:100%;
+  padding: 20px 0;
+  background-color: white;
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+
+.header-left h1{
+  font-size: 22px;
+  font-weight: bold;
+  float: left;
+}
+
+.header-right{
+  float: right;
+  font-size: 20px;
+  text-align: right;
+}
+
+.fa-bars{
+  text-align: right;
+  color: black;
+  cursor: pointer;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  right:0;
+  left:0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 100;
+  padding-top: 20px;
+  font-size: 16px;
+  display: none;
+}
+
+ul{
+  list-style: none;
+  width: 90%;
+  position: absolute;
+  left: 0;
+}
+
+.menu ul li a{
+  color: white;
+}
+
+.menu ul li{
+  padding: 5px 0;
+}
+
+.fa-times{
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  padding-right: 5%;
+  cursor: pointer;
+}
+
+/* ----------------main---------------------- */
+main{
+  margin: 30px 0;
+}
+
+.link{
+  text-decoration: none;
+  white-space: nowrap;
+
+}
+
+.item p{
+  margin: 5px 0 20px 0;
+  font-size: 14px;
+}
+
+main p{
+  width: 100%;
+  text-align: center;
+}
+
+.prodacts-view img:hover {
+	opacity: 0.7 ;
+}
+
+.nav-title{
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0;
+  opacity: 0.7 ;
+}
+/* ----------------main---------------------- */
+
+/* ----------------footer---------------------- */
+
+.view{
+  display: block;
+  margin: 30px 0;
+}
+
+p{
+  opacity: 0.6;
+  color:black;
+}
+
+.sns{
+  font-size: 14px;
+}
+
+.logo{
+  white-space: nowrap;
+  font-size: 10px;
+  text-align: right;
+}
+
+.icon{
+  margin-right: 5px;
+}
+/* ----------------footer---------------------- */
+
+/* ----------------products--------------------- */
+.prodact h1{
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin: 0;
+  line-height: 32px;
+  opacity: 0.7;
+
+}
+
+.prodact p{
+  margin-top: 32px;
+  text-align: left;
+  opacity: 0.7;
+}
+/* ----------------products--------------------- */
+
+/* ----------------company--------------------- */
+
+.googlemaps iframe,
+.googlemaps object,
+.googlemaps embed {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.googlemaps{
+  margin-top: 40px;
+}
+
+dt{
+  width: 25%;
+  margin: 10px 0;
+}
+
+dl{
+  border-bottom: black solid 1px;
+  margin: 0;
+  width: 70%;
+  opacity: 0.6;
+}
+
+dd{
+  margin: 10px 0;
+}
+/* ----------------company--------------------- */
+/* ----------------about----------------------- */
+.about-text{
+  width: 100%;
+  text-align: left;
+}
+
+
+
+/* ----------------comntact--------------------- */
+
+.table-list {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 0.05em;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.table-list th {
+  font-weight: bold;
+  width: 250px;
+  text-align: left;
+}
+
+.table-list-address {
+  flex-wrap: wrap;
+}
+
+
+.contact-area {
+  background: white;
+  padding: 90px;
+  margin: 100px auto;
+  width: 1000px;
+}
+
+.input-area {
+  font-family: 'Noto Sans JP', sans-serif;
+  letter-spacing: 0.05em;
+  padding: 0 10px;
+  border: none;
+  width: 550px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #c4c4c4;
+}
+
+.table-list td {
+  font-size: 13px;
+  width: calc(100% - 250px);
+}
+
+input::placeholder {
+  color: #bfbfbf;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+textarea {
+  border: none;
+  width: 550px;
+  height: 200px;
+  padding: 0;
+  border: 1px solid #c4c4c4;
+}
+
+textarea::placeholder {
+  color: #bfbfbf;
+  font-size: 12px;
+}
+
+input[type="text"] {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact-area .text {
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.contact-area .text a {
+  color: black;
+  border-bottom: 1px solid black;
+  transition: all .3s;
+}
+
+.contact-area .text a:hover {
+  border-bottom: 1px solid #777;
+  padding-bottom: 5px;
+  color: #777;
+}
+
+.submit-button {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  margin: 30px auto 0;
+  background-color: black;
+  cursor: pointer;
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.5;
+  outline: none;
+  -webkit-transition: all .3s;
+  transition: all .5s;
+  padding: 20px 100px;
+}
+
+.submit-button:hover {
+  opacity: 0.7;
+}
