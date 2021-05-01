@@ -184,6 +184,7 @@ p{
 dt{
   width: 25%;
   margin: 10px 0;
+  white-space: nowrap;
 }
 
 dl{
