@@ -191,7 +191,9 @@ dd{
   text-align: left;
 }
 
-
+.about-img{
+  position: relative;
+}
 
 /* ----------------comntact--------------------- */
 
